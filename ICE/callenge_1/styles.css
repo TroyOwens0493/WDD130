@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+body {
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+    background-color: #FFA2E4;
+}
+
+.big-quote {
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    font-size: xx-large;
+    line-height: 140%;
+    padding-bottom: 1%;
+    padding-top: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.small-quote {
+    color: white;
+    font-size: small;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+.President {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+ol { 
+    font-size: medium;
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-family: sans-serif;
+}
+
+li {
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+}
+
+h1:hover {
+  color: black;
+  font-family: sans-serif;
+}
+
+img {
+  width: 35%;
+}
+
+footer{
+  font-family: sans-serif;
+}

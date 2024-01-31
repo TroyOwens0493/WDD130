@@ -1,0 +1,43 @@
+h1 {
+  font-size: 2em;
+}
+
+#something {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#world {
+  font-size: 3em;
+  background-color: blue;
+  color: white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(1fr, 2);
+  grid-template-rows: 100px;
+  background-color: gray;
+  border: solid 2px black ;
+  border-radius: 20px;
+  clear: both;
+}
+
+img {
+  grid-column: 2 / 3;
+  width: 350px;
+  padding: 15px;
+  margin: 50px;
+}
+
+.section_p {
+  grid-column: 1 / 2;
+  color: purple;
+}
+
+.section_h {
+  grid-column: 1 / 2;
+  color: orange;
+}
