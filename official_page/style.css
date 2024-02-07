@@ -24,6 +24,7 @@ body {
 .book:hover, .join:hover {
   color: #F29B30;
   background-color: #733702;
+  border: 2px #01261C solid;
   text-decoration: none;
 }
 
