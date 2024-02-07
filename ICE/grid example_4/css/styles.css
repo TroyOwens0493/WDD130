@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:wght@300&display=swap');
+
+body {
+  background-color: purple;
+}
+
+#content {
+  background-color: darkkhaki;
+  grid-row: 1/3;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px black solid ;
+}
+
+.maybe {
+  background-color: gold;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.maybe div {
+  background-color: silver;
+}
+
+section {
+  padding: 30px;
+}
+
+.whatever {
+  background-color: darkmagenta;
+  color: bisque;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.top {
+  background-color: blue;
+  grid-column: 1/-1;
+}
+
+.bottom {
+  background-color: white;
+  grid-column: 1/-1;
+}
+
+footer section {
+  background-color: brown;
+  border: 1px black solid;
+}

@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:wght@300&display=swap');
+
 #background {
   background-color: #F29B30;
   height: 725px;
 }
 
+body {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
 .book, .join {
   color: #733702;
   background-color: #F29B30;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 15px 30px;
   text-decoration: none;
 }
 
@@ -19,6 +31,10 @@
   text-align: center;
 }
 
+.card-img {
+  border: 10px #014029 solid;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -27,6 +43,7 @@
 footer {
   background-color: #F29B30;
   color: #014029;
+  padding: 25px 50px;
 }
 
 footer a {
@@ -49,6 +66,14 @@ footer p a:hover {
   text-decoration: underline;
 } 
 
+footer .social img {
+  padding-top: 15px;
+}
+
+h2 {
+  margin: 0;
+}
+
 h4 {
   color: #733702;
 }
@@ -65,24 +90,52 @@ header {
   width: 100%;
 }
 
+#hero-msg {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
 #hero-msg h1, #hero-msg h4 {
   text-align: center;
 }
 
+#hero-msg h4 {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
 .home-title {
   color: #F29B30;
+  font-family: "Lemon", "Georgia", "Helvetica";
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 .icon {
   width: 40px;
+  padding-top: 10px;
 }
 
 .logo {
   width: 80px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+#logo_link {
+  padding-top: 5px;
+}
+
+main {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main section {
   text-align: center;
+}
+
+main section img {
+  box-sizing: border-box;
 }
 
 .mountains {
@@ -91,23 +144,34 @@ main section {
 
 .msg {
   background-color: #733702;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
   color: white;
+  font-family: "Lemon", "Georgia", Helvetica;
 }
 
 .msg p {
   color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 nav a {
   text-align: center;
   color: #F29B30;
+  padding: 35px;
   text-decoration: none;
 }
 
 nav a:hover {
   color: white;
   text-decoration: none;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
 }
