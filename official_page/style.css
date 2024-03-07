@@ -241,6 +241,35 @@ nav a:hover {
   grid-row: 2/3;
 }
 
+/* FAQ page css */
+
+.FAQs {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.FAQ-hero {
+  width: 100%;
+  padding-top: -10px;
+}
+
+.FAQ-main {
+  margin: 0;
+  padding: 0;
+}
+
+.FAQ-h-tag {
+  color: #F29B30;
+  font-family: "Lemon", "Georgia", "Helvetica";
+  text-align: center;
+}
+
+.FAQ-p-tag {
+  color: #733702;
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
