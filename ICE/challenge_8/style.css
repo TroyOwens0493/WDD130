@@ -1,0 +1,68 @@
+.card  {
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 29%;
+}
+
+.profile-photo {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.username {
+  font-weight: bold;
+  color: gray;
+}
+
+.img-header {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr 1fr 25px;
+}
+
+.img-header p {
+  padding-top: 5px;
+}
+
+.img-footer {
+  display: grid;
+  grid-template-columns: 30px 30px 30px 20px 1fr 25px 30px;
+}
+
+.img-footer i {
+  padding-top: 17px;
+}
+
+.img-footer i, .img-footer p {
+  text-align: center;
+  color: gray;
+}
+
+.likes {
+  grid-column: 6/7;
+}
+
+.fa-heart {
+  grid-column: 7/8;
+}
+
+.time-posted {
+  grid-column: 4/5;
+  text-align: right;
+  padding-right: 10px;
+  color: gray;
+}
+
+.fa-ellipsis-vertical {
+  grid-column: 5/6;
+  text-align: right;
+  padding-top: 23px;
+  padding-right: 10px;
+  color: gray;
+}
+
+.post-photo {
+  width: 400px;
+  padding-top: 10px;
+}
